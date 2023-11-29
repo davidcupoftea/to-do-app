@@ -48,7 +48,7 @@ export default function ToDoList() {
         if (e.keyCode === 13) {
             const newToDo = {id: Date.now(), name: e.target.value, completed: false}
             //setItems([newToDo, ...items]); // ESTE FUNCIONA
-            setItems((prevState)=>([ ...prevState, newToDo])) // ESTO NO FUNCIONA (NO SE POR QUE)
+            setItems((prevState)=>([ ...prevState, newToDo])) //ESTE TMBN FUNCIONA
          }
 
     }
