@@ -1,0 +1,9 @@
+.completed{
+    opacity: 0.2;
+    border: 1px solid black;
+}
+
+.not-completed{
+    opacity: 1;
+    border: 1px solid black;
+}
